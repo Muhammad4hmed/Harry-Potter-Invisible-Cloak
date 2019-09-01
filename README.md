@@ -3,7 +3,7 @@
 I have added necessary comments in the code. still something confuses you? feel free to contact.
 the only dependency is OpenCV.
 
-Please note: remove the video path and change it to integer 1. to capture using webcam
+Please note: remove the video path and change it to integer 1. to capture using webcam (Just after launching stay away from camera for atleast 5-6 seconds and then come infront of it and test)
 line 21 will be:
 ```
 cam = cv2.VideoCapture(1)
